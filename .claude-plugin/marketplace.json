@@ -1,0 +1,14 @@
+{
+  "name": "constellation",
+  "description": "Constellation: a live night sky of your Claude Code agents",
+  "owner": {
+    "name": "Jpgomesf",
+    "url": "https://github.com/Jpgomesf"
+  },
+  "plugins": [
+    {
+      "name": "constellation",
+      "source": "./"
+    }
+  ]
+}

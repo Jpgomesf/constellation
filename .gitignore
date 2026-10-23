@@ -1,0 +1,15 @@
+# Local notes
+STATE.md
+# Written by the engine at every load.
+.claude-plugin/types/
+# Python bytecode from the sandbox harness.
+__pycache__/
+# Your own environment for dev/sandbox.py's sessions.
+dev/sandbox.env
+# Tool caches and leftovers.
+.ruff_cache/
+.DS_Store
+*.orig
+*.rej
+*.log
+.mypy_cache/

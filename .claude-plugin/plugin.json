@@ -1,0 +1,30 @@
+{
+  "name": "constellation",
+  "version": "0.2.0",
+  "description": "A live night sky for your agents: an animated ASCII pane that maps Workflow runs, child workflows, agents and subagents as a constellation, with astronomical events for what they are doing",
+  "author": {
+    "name": "Jpgomesf",
+    "url": "https://github.com/Jpgomesf"
+  },
+  "homepage": "https://github.com/Jpgomesf/constellation",
+  "repository": "https://github.com/Jpgomesf/constellation",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "agents",
+    "subagents",
+    "pane",
+    "ascii-art",
+    "visualization",
+    "tui"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoOpen": {
+      "title": "Open when a workflow starts",
+      "description": "Open the constellation pane by itself the moment a Workflow run starts in this session",
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
